@@ -20,21 +20,15 @@ window = tk.Tk()
 window.title("Random Password")
 window.geometry("600x300")
 
-
 key_application = tk.Frame(window)
 key_application.grid()
 
-
-# label
 label_txt = tk.Label(key_application, text="PASSWORD", font="arial 15 bold")
 label_txt.grid(padx=110, pady=10)
 
-
-# label
 label_ = tk.Label(key_application, text="Please push the button to choose a random password", font="arial 12")
 label_.grid(padx=110, pady=20)
 
-# button
 button1 = tk.Button(window, text=" CHOOSE ", width=50, height=5, command=random_password)
 button1.grid(padx=110, pady=40)
 
