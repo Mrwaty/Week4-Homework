@@ -44,3 +44,19 @@ while True:
     except:
         x=str(sys.exc_info()[0])
         print(x.split("'")[1], "Try again!")
+
+  """
+  General Information:
+I want to use a program which can calculate basic mathematical operations.
+
+Acceptance Criteria:
+* The calculator must support the Addition, Subtraction, Multiplication and Division operations.
+* All operations must be in a different module as method.
+* Operations must define with two float numbers as parametres.
+* Use math.ceil() for all results.
+* Create a menu to choose an operation.
+* User can choose invalid options, so you must handle all possible error. (Use try except :))
+* Inform user what type of error occured (TypError, ValueError etc.)
+* This process must continue until user want to quit from calculator.
+  
+  """
